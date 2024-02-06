@@ -1,0 +1,17 @@
+{
+  "name": "how-much",
+  "version": "1.0.0",
+  "description": "A parsing library for units input by humans",
+  "repository": "https://github.com/Heathcorp/how-much.git",
+  "author": "Heath Manning <heath@manningf.com>",
+  "license": "MIT",
+  "private": false,
+  "main": "./dist/index.js",
+  "types": "./dist/index.ts",
+  "scripts": {
+    "build": "yarn tsc"
+  },
+  "devDependencies": {
+    "typescript": "^5.3.3"
+  }
+}
